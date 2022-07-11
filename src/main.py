@@ -10,7 +10,7 @@ MAP = "map7.txt"
 
 
 def main() -> None:
-    with open(f"./maps/{MAP}") as file:
+    with open(f"../maps/{MAP}") as file:
         maze = Maze(file.read().splitlines())
 
         print(
